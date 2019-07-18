@@ -65,25 +65,22 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.container{
+.container, .container2{
 	margin-left: 8%;
 	margin-right: 3%;
+	margin-top: 5%
 }
-ul{
+nav{
 	display: flex;
 	flex-direction: row;
-	align-items: baseline;
-	justify-content: space-evenly;
-}
-
-nav li{
-	text-decoration: none;
-	padding: 5px;
-}
-
-nav li img{
 	align-items: center;
-	margin-top: 5px;
+	justify-content: space-between;
+}
+
+
+nav img{
+	align-items: center;
+	
 }
 
 a{
@@ -154,4 +151,45 @@ section{
 .copyright{
 	text-align: center;
 	width: 100%;
+}
+.services-header-img{
+	width: 95%;
+	height: 150px;
+	margin-right: 5%;	
+}
+.container2 h1{
+	font-size: 100%;
+	text-align: left;
+	margin-top: 5%;
+}
+.container2{
+	margin-left: 8%;
+	margin-right: 3%;	
+}
+aside{
+	margin-bottom: 5%;
+	text-align: justify;
+	width: 95%;
+}
+.container2 section{
+	display: flex;
+	justify-content: space-around;
+	align-content: space-between;
+	flex-direction: row;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	
+}
+.container2 div{
+	width: 40%;
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2% 5% 2% 0;
+
+}
+.container2 button{
+ margin: 10px 0 10px 0;
+ padding: 10px 30px 10px 30px;
+ border-radius: 4px;
+ background: white;
 }
