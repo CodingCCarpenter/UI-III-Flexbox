@@ -122,10 +122,6 @@ hr{
 	border: 1px solid black;
 	margin-bottom: 20px;
 }
-small{
-	font-size: 12px;
-	text-align: center;
-}
 .threeCol{
 	display:flex;
 	justify-content: space-between;
@@ -211,4 +207,7 @@ aside{
 }
 .facts-row{
 	background: none;
+}
+.container2 h2{
+	margin-bottom: 30px;
 }
