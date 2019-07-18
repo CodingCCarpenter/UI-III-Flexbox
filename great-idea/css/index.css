@@ -164,24 +164,30 @@ section{
 }
 .container2{
 	margin-left: 8%;
-	margin-right: 3%;	
+	margin-right: 8%;	
+}
+.container2 hr{
+	 width: 95%;
+	 border: 1px solid black;
+	 margin-left: 0;
 }
 aside{
-	margin-bottom: 5%;
 	text-align: justify;
-	width: 95%;
+	width: 95%
 }
 .container2 section{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-content: space-between;
 	flex-direction: row;
 	align-items: flex-start;
 	flex-wrap: wrap;
+	align-content: space-between;
+	width: 95%;
 	
 }
 .container2 div{
-	width: 40%;
+	width: 45%;
 	border: 1px solid black;
 	padding: 2%;
 	margin: 2% 5% 2% 0;
