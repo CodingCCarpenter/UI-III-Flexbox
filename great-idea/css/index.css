@@ -181,23 +181,34 @@ aside{
 	align-content: space-between;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100%;
-	
+	width: 100%;	
 }
 .container2 div{
 	width: 45%;
+	margin: 2% 5% 2% 0
+}
+.container2  main div{
 	border: 1px solid black;
 	padding: 2%;
-	margin: 2% 5% 2% 0;
 	background: #F0F0F0;
 }
 .container2 button{
- margin: 10px 0 10px 0;
- padding: 10px 30px 10px 30px;
- border-radius: 4px;
- background: white;
+	margin: 10px 0 10px 0;
+	padding: 10px 30px 10px 30px;
+	border-radius: 4px;
+	background: white;
 }
 .container2 ul{
 	list-style-type: disc;
 	list-style-position: inside; 
+}
+
+.container2 ul li{
+	margin: 10px 0 10px 0;
+}
+.services-info-img{
+	width: 100%;
+}
+.facts-row{
+	background: none;
 }
