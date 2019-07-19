@@ -179,6 +179,7 @@ aside{
 	flex-wrap: wrap;
 	width: 100%;	
 }
+
 .container2 div{
 	width: 45%;
 	margin: 2% 5% 2% 0
@@ -212,6 +213,7 @@ aside{
 .container2 h2{
 	margin-bottom: 30px;
 }
-.quad-br{
-	height: 400%;
+.container2 .features-header-img{
+	width: 95%;
+	height: 50%;
 }
